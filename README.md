@@ -2,7 +2,7 @@
 
   . Higher Study & Exam Prep
 
-  url: https://cocky-rosalind-ff3e27.netlify.app/home
+  url: https://cocky-rosalind-ff3e27.netlify.app/
 
 
   #Description
