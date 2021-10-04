@@ -5,8 +5,9 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import FAQ from './components/FAQ/FAQ';
-import NotFound from './NotFoud/NotFound';
+
 import Header from './components/Header/Header';
+import NotFound from './components/NotFound/NotFound';
 
 
 function App() {
@@ -36,7 +37,6 @@ function App() {
           <Route>
             <NotFound></NotFound>
           </Route>
-
         </Switch>
         <Footer></Footer>
       </Router>
