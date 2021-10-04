@@ -35,7 +35,7 @@ const Home = () => {
                                     <h4>Name: {instructor.name}</h4>
                                     <h5>Occupation: {instructor.occupation}</h5>
                                     <h5>Service: {instructor.service}</h5>
-                                    <h5>Price: {instructor.price}</h5>
+                                    <h5>Price: ${instructor.price}</h5>
                                 </div>
                             </div>
                         </div>
