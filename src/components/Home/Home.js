@@ -1,13 +1,13 @@
+//import
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './Home.css'
 
 const Home = () => {
-    const [instructors, setInstructors] = useState([]);
+    const [instructors, setInstructors] = useState([]); //define state
     useEffect(() => {
-        fetch('./tools.json')
+        fetch('./tools.json') //load data from fakeData
             .then(res => res.json())
             .then(data => setInstructors(data))
     }, [])
@@ -32,13 +32,10 @@ const Home = () => {
                                     <img className="w-50" src={instructor.img} alt="" />
                                 </div>
                                 <div className="text-area">
-                                    <h3>Name: {instructor.name}</h3>
-                                    <h4>Occupation: {instructor.occupation}</h4>
-                                    <h4>Service: {instructor.service}</h4>
-                                    <h4>Price: {instructor.price}</h4>
-                                    {/*  <Link to={`/details/${instructor.idTeam}`}>
-                                        <button className="btn btn-success">Details</button>
-                                    </Link> */}
+                                    <h4>Name: {instructor.name}</h4>
+                                    <h5>Occupation: {instructor.occupation}</h5>
+                                    <h5>Service: {instructor.service}</h5>
+                                    <h5>Price: {instructor.price}</h5>
                                 </div>
                             </div>
                         </div>

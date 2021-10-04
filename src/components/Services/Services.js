@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 const Services = () => {
-    const [instructors, setInstructors] = useState([]);
+    const [instructors, setInstructors] = useState([]); // define state
     useEffect(() => {
-        fetch('./tools1.json')
+        fetch('./tools1.json') //load data from fakedata
             .then(res => res.json())
             .then(data => setInstructors(data))
     }, [])
@@ -27,13 +27,10 @@ const Services = () => {
                                     <img className="w-50" src={instructor.img} alt="" />
                                 </div>
                                 <div className="text-area">
-                                    <h3>Name: {instructor.name}</h3>
-                                    <h4>Occupation: {instructor.occupation}</h4>
-                                    <h4>Service: {instructor.service}</h4>
-                                    <h4>Price: {instructor.price}</h4>
-                                    {/*  <Link to={`/details/${instructor.idTeam}`}>
-                                        <button className="btn btn-success">Details</button>
-                                    </Link> */}
+                                    <h4>Name: {instructor.name}</h4>
+                                    <h5>Occupation: {instructor.occupation}</h5>
+                                    <h5>Service: {instructor.service}</h5>
+                                    <h5>Price: {instructor.price}</h5>
                                 </div>
                             </div>
                         </div>
