@@ -1,10 +1,14 @@
 #Basic URL
 
-  .Higher Study & Exam Prep
+  . Higher Study & Exam Prep
+
+  
 
 
   #Description
 
-  1.You can get one of the best instructor for GRE, IELTS,TOEFL.
-  2.Here we can guide you how to write SOP and RESUME with one of the best instructors.
-  3.We can guid you how to find Universities.
+   1. You can get one of the best instructor for GRE, IELTS,TOEFL. 
+
+   2. Here we can guide you how to write SOP and RESUME with one of the best instructors.
+
+   3. We can guid you how to find Universities.
