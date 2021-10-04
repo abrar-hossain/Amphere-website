@@ -1,0 +1,123 @@
+[
+    {
+        "char_id": 1,
+        "name": "Walter White",
+        "occupation": "REASEARCHER",
+        "service": "research-methodology",
+        "price": "10000",
+        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg"
+    },
+    {
+        "char_id": 2,
+        "name": "Jesse Pinkman",
+        "occupation": "GRE-INSTRUCTOR",
+        "service": "GRE",
+        "price": "9000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/9/95/JesseS5.jpg/revision/latest?cb=20120620012441"
+    },
+    {
+        "char_id": 3,
+        "name": "Skyler White",
+        "occupation": "TOEFL-INSTRUCTOR",
+        "service": "TOEFL",
+        "price": "8000",
+        "img": "https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg"
+    },
+    {
+        "char_id": 4,
+        "name": "Walter White Jr.",
+        "occupation": "IELTS-INSTRUCTURE",
+        "service": "IELTS",
+        "price": "4000",
+        "img": "https://media1.popsugar-assets.com/files/thumbor/WeLUSvbAMS_GL4iELYAUzu7Bpv0/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/01/12/910/n/1922283/fb758e62b5daf3c9_TCDBRBA_EC011/i/RJ-Mitte-Walter-White-Jr.jpg"
+    },
+    {
+        "char_id": 5,
+        "name": "Henry Schrader",
+        "occupation": "WRITTING-INSTRUCTOR",
+        "service": "Writting",
+        "price": "5000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/b7/HankS5.jpg/revision/latest/scale-to-width-down/700?cb=20120620014136"
+    },
+    {
+        "char_id": 6,
+        "name": "Marie Schrader",
+        "occupation": "gre",
+        "service": "gre-quant",
+        "price": "5000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/10/Season_2_-_Marie.jpg/revision/latest?cb=20120617211645"
+    },
+    {
+        "char_id": 7,
+        "name": "Mike Ehrmantraut",
+        "occupation": "gre",
+        "service": "gre-verbal",
+        "price": "5000",
+        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_mike-ehrmantraut-lg.jpg"
+    },
+    {
+        "char_id": 8,
+        "name": "Saul Goodman",
+        "occupation": "ielts-instructor",
+        "service": "ielts-reading",
+        "price": "4000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/16/Saul_Goodman.jpg/revision/latest?cb=20120704065846"
+    },
+    {
+        "char_id": 9,
+        "name": "Gustavo Fring",
+        "occupation": "ielts-instructor",
+        "service": "ielts-writting",
+        "price": "4000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/1f/BCS_S4_Gustavo_Fring.jpg/revision/latest?cb=20180824195925"
+    },
+    {
+        "char_id": 10,
+        "name": "Hector Salamanca",
+        "occupation": "ielts-instructor",
+        "service": "gre-speaking",
+        "price": "4000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/b4/Hector_BCS.jpg/revision/latest?cb=20170810091606"
+    },
+    {
+        "char_id": 11,
+        "name": "Domingo Molina",
+        "occupation": "ielts-instructor",
+        "service": "ielts-listening",
+        "price": "4000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/e/e7/Krazy8.png/revision/latest?cb=20130208041554"
+    },
+    {
+        "char_id": 12,
+        "name": "Tuco Salamanca",
+        "occupation": "GRE-INSTRUCTOR",
+        "service": "gre",
+        "price": "5000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/a/a7/Tuco_BCS.jpg/revision/latest?cb=20170810082445"
+    },
+    {
+        "char_id": 13,
+        "name": "Marco & Leonel Salamanca",
+        "occupation": "Researcher",
+        "service": "research-methology",
+        "price": "5000",
+        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_the-cousins-lg.jpg"
+    },
+    {
+        "char_id": 14,
+        "name": "Lydia Rodarte-Quayle",
+        "occupation": "Researcher",
+        "service": "resume for research",
+        "price": "5000",
+        "img": "https://media1.popsugar-assets.com/files/thumbor/wERDST0TUb-iHCSb2r5ZpsvaZLo/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/07/17/675/n/1922283/fae2f583f04bb80f_Laura-Fraser-is-back-as-Lydia-Rodarte-Quayle_gallery_primary/i/Laura-Fraser-Lydia-Rodarte-Quayle.jpg"
+    },
+    {
+        "char_id": 15,
+        "name": "Todd Alquist",
+        "occupation": "lecturer",
+        "service": "find-university",
+        "price": "10000",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/9/95/Todd_brba5b.png/revision/latest?cb=20130717134303",
+        "status": "Deceased"
+    }
+]
