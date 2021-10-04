@@ -13,9 +13,6 @@ const Home = () => {
     }, [])
     return (
         <div className="container all-services">
-            <hr />
-            <h1 className="text-danger">Higher Study & Exam Prep</h1>
-            <hr />
             <div className="all-service">
                 <h1>Our Services</h1>
             </div>
