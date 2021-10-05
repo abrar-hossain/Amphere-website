@@ -1,11 +1,11 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 
 const Footer = () => {
     return (
 
-        <Container className="mt-5 pt-5" style={{ backgroundColor: "#0063B2FF", color: "white" }}>
+        <div className="mt-5 pt-5" style={{ backgroundColor: "#0063B2FF", color: "white" }}>
             <Row>
                 <Col>
                     <h4>Our Branches</h4>
@@ -31,10 +31,10 @@ const Footer = () => {
                 </Col>
             </Row>
             <hr />
-            <div>
-                <h5 className="text-center pb-5">Copyright © 2021  All rights reserved</h5>
-            </div>
-        </Container>
+            <Row> <h5 className="text-center pb-5">Copyright © 2021  All rights reserved</h5></Row>
+
+
+        </div>
     );
 };
 

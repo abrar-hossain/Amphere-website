@@ -8,12 +8,12 @@ import { NavLink } from "react-router-dom";
 const NavBars = () => {
     return (
         <div>
-            <Appbar bg="white" expand="lg">
+            <Appbar fixed="top" bg="dark" expand="lg">
                 <Container fluid>
                     <Appbar.Toggle aria-controls="navbarScroll" />
                     <Appbar.Collapse id="navbarScroll">
                         <Nav
-                            className="mx-auto my-2 my-lg-0"
+                            className="ms-auto my-2 my-lg-0 pe-5"
                             style={{ maxHeight: "100px" }}
                             navbarScroll
                         >
@@ -61,7 +61,7 @@ const NavBars = () => {
                 </Container>
             </Appbar>
             <hr />
-            <h1 className="text-danger">GRE, IELTS, TOEFL-Prep</h1>
+            <h1 className="text-danger bg-dark">GRE, IELTS, TOEFL-Prep</h1>
             <hr />
         </div>
     );
