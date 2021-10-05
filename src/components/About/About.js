@@ -2,7 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="mt-5">
+
+        <div>
             <hr />
             <h4>For English description, please scroll down to the bottom. Amphere's uses Bangla as the means of communication and dissemination of information because we have data-driven evidence that our visitors are more engaged and better retainer of the information if they receive it in Bangla.</h4>
             <br />
@@ -14,6 +15,8 @@ const About = () => {
             <br />
             <hr />
         </div>
+
+
     );
 };
 

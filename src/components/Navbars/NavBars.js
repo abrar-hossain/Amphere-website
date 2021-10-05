@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const NavBars = () => {
     return (
         <div>
-            <Appbar fixed="top" bg="dark" expand="lg">
+            <Appbar bg="dark" expand="lg">
                 <h4 className="text-danger bg-dark">Ampere's academy</h4>
                 <Container fluid>
                     <Appbar.Toggle aria-controls="navbarScroll" />
