@@ -1,123 +1,92 @@
 [
     {
         "char_id": 1,
-        "name": "Walter White",
-        "occupation": "REASEARCHER",
-        "service": "research-methodology",
-        "price": "10000",
-        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg"
+        "name": "GRE",
+        "description": "The GRE or The Graduate Record Examination is a general test taken for graduate schools in Canada and the USA.",
+        "price": "15000"
     },
     {
         "char_id": 2,
-        "name": "Jesse Pinkman",
-        "occupation": "GRE-INSTRUCTOR",
-        "service": "GRE",
-        "price": "9000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/9/95/JesseS5.jpg/revision/latest?cb=20120620012441"
+        "name": "IELTS",
+        "description": "The GRE or The Graduate Record Examination is a general test taken for graduate schools in Canada and the USA.",
+        "price": "10000"
     },
     {
         "char_id": 3,
-        "name": "Skyler White",
-        "occupation": "TOEFL-INSTRUCTOR",
-        "service": "TOEFL",
-        "price": "8000",
-        "img": "https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg"
+        "name": "TOEFL",
+        "description": "The TOEFL (“Test of English as a Foreign Language”) is a standardized test that measures a test-taker's mastery of the English language",
+        "price": "11000"
     },
     {
         "char_id": 4,
-        "name": "Walter White Jr.",
-        "occupation": "IELTS-INSTRUCTURE",
-        "service": "IELTS",
-        "price": "4000",
-        "img": "https://media1.popsugar-assets.com/files/thumbor/WeLUSvbAMS_GL4iELYAUzu7Bpv0/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/01/12/910/n/1922283/fb758e62b5daf3c9_TCDBRBA_EC011/i/RJ-Mitte-Walter-White-Jr.jpg"
+        "name": "SAT",
+        "description": "The SAT is a multiple-choice, pencil-and-paper test created and administered by the College Board. ",
+        "price": "13000"
     },
     {
         "char_id": 5,
-        "name": "Henry Schrader",
-        "occupation": "WRITTING-INSTRUCTOR",
-        "service": "Writting",
-        "price": "5000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/b7/HankS5.jpg/revision/latest/scale-to-width-down/700?cb=20120620014136"
+        "name": "GMAT Quantitative Reasoning",
+        "description": "Tests your ability to solve mathematical problems and interpret data about elementary mathematical concepts",
+        "price": "13000"
     },
     {
         "char_id": 6,
-        "name": "Marie Schrader",
-        "occupation": "gre",
-        "service": "gre-quant",
-        "price": "5000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/10/Season_2_-_Marie.jpg/revision/latest?cb=20120617211645"
+        "name": "GRE-IELTS-SAT Vocabulary",
+        "description": "TTest your vocabulary for SAT, IELTS, GRE. 6 practice test with 600 MCQ questions ",
+        "price": "13000"
     },
     {
         "char_id": 7,
-        "name": "Mike Ehrmantraut",
-        "occupation": "gre",
-        "service": "gre-verbal",
-        "price": "5000",
-        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_mike-ehrmantraut-lg.jpg"
+        "name": "GRE Mock Test",
+        "description": "Test your vocabulary for SAT, IELTS, GRE. 6 practice test with 600 MCQ questions",
+        "price": "13000"
     },
     {
         "char_id": 8,
-        "name": "Saul Goodman",
-        "occupation": "ielts-instructor",
-        "service": "ielts-reading",
-        "price": "4000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/16/Saul_Goodman.jpg/revision/latest?cb=20120704065846"
+        "name": "GRE AWA",
+        "description": "Tests your ability to think critically and write analysis of the reasoning.",
+        "price": "13000"
     },
     {
         "char_id": 9,
-        "name": "Gustavo Fring",
-        "occupation": "ielts-instructor",
-        "service": "ielts-writting",
-        "price": "4000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/1f/BCS_S4_Gustavo_Fring.jpg/revision/latest?cb=20180824195925"
+        "name": "GRE Verbal",
+        "description": "Tests your ability to read and analyze written materials and gather information from it while identifying relationships between words and concepts.  Start this course ",
+        "price": "13000"
     },
     {
         "char_id": 10,
-        "name": "Hector Salamanca",
-        "occupation": "ielts-instructor",
-        "service": "gre-speaking",
-        "price": "4000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/b4/Hector_BCS.jpg/revision/latest?cb=20170810091606"
+        "name": "GRE Quantitative",
+        "description": "Tests your ability to solve mathematical problems and interpret data about elementary mathematical concepts ",
+        "price": "13000"
     },
     {
         "char_id": 11,
-        "name": "Domingo Molina",
-        "occupation": "ielts-instructor",
-        "service": "ielts-listening",
-        "price": "4000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/e/e7/Krazy8.png/revision/latest?cb=20130208041554"
+        "name": "IELTS",
+        "description": "The IELTS is an English proficiency test that assesses your communication skills through 4 different modules.  Start this course ",
+        "price": "13000"
     },
     {
         "char_id": 12,
-        "name": "Tuco Salamanca",
-        "occupation": "GRE-INSTRUCTOR",
-        "service": "gre",
-        "price": "5000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/a/a7/Tuco_BCS.jpg/revision/latest?cb=20170810082445"
+        "name": "IELTS Listening",
+        "description": "The IELTS Listening module tests your ability to listen to English conversations and write down answers to various questions.",
+        "price": "13000"
     },
     {
         "char_id": 13,
-        "name": "Marco & Leonel Salamanca",
-        "occupation": "Researcher",
-        "service": "research-methology",
-        "price": "5000",
-        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_the-cousins-lg.jpg"
+        "name": "IELTS Reading",
+        "description": "The IELTS Reading module tests your ability to extract important information from passages in a short period of time.",
+        "price": "13000"
     },
     {
         "char_id": 14,
-        "name": "Lydia Rodarte-Quayle",
-        "occupation": "Researcher",
-        "service": "resume for research",
-        "price": "5000",
-        "img": "https://media1.popsugar-assets.com/files/thumbor/wERDST0TUb-iHCSb2r5ZpsvaZLo/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/07/17/675/n/1922283/fae2f583f04bb80f_Laura-Fraser-is-back-as-Lydia-Rodarte-Quayle_gallery_primary/i/Laura-Fraser-Lydia-Rodarte-Quayle.jpg"
+        "name": "IELTS Speaking",
+        "description": "TThe IELTS speaking module tests your clarity and fluency in English communication standards in a formal setting. ",
+        "price": "13000"
     },
     {
         "char_id": 15,
-        "name": "Todd Alquist",
-        "occupation": "lecturer",
-        "service": "find-university",
-        "price": "10000",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/9/95/Todd_brba5b.png/revision/latest?cb=20130717134303",
-        "status": "Deceased"
+        "name": "IELTS Writing",
+        "description": "The IELTS Writing module measures your standard English writing capabilities in contexts of different formalities.",
+        "price": "13000"
     }
 ]

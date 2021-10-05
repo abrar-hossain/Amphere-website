@@ -9,6 +9,7 @@ const NavBars = () => {
     return (
         <div>
             <Appbar fixed="top" bg="dark" expand="lg">
+                <h4 className="text-danger bg-dark">Ampere's academy</h4>
                 <Container fluid>
                     <Appbar.Toggle aria-controls="navbarScroll" />
                     <Appbar.Collapse id="navbarScroll">
@@ -34,7 +35,7 @@ const NavBars = () => {
                                         color: "red",
                                     }}
                                 >
-                                    About
+                                    About Us
                                 </NavLink>
                                 <NavLink
                                     to="/services"
@@ -60,9 +61,6 @@ const NavBars = () => {
                     </Appbar.Collapse>
                 </Container>
             </Appbar>
-            <hr />
-            <h1 className="text-danger bg-dark">GRE, IELTS, TOEFL-Prep</h1>
-            <hr />
         </div>
     );
 };

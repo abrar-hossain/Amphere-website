@@ -6,7 +6,7 @@
 }
 .cart {
   padding: 10px;
-  height: 405px;
+  height: 190px;
   border: 1px solid gray;
   margin-top: 10px;
 
@@ -16,4 +16,7 @@
   text-align: center;
   /* background-color: rgb(131, 124, 124); */
  
+}
+.hero{
+  margin-top: 50px;
 }

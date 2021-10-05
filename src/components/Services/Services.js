@@ -3,11 +3,11 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 const Services = () => {
-    const [instructors, setInstructors] = useState([]); // define state
+    const [courses, setCourses] = useState([]); // define state
     useEffect(() => {
         fetch('./tools1.json') //load data from fakedata
             .then(res => res.json())
-            .then(data => setInstructors(data))
+            .then(data => setCourses(data))
     }, [])
     return (
         <div className="container all-services">
@@ -20,17 +20,13 @@ const Services = () => {
             </div>
             <div className="services">
                 <div className="row">
-                    {instructors?.map((instructor) => (
+                    {courses?.map((course) => (
                         <div className="col-md-4">
                             <div className="cart">
-                                <div className="cart-details">
-                                    <img className="w-50" src={instructor.img} alt="" />
-                                </div>
                                 <div className="text-area">
-                                    <h4>Name: {instructor.name}</h4>
-                                    <h5>Occupation: {instructor.occupation}</h5>
-                                    <h5>Service: {instructor.service}</h5>
-                                    <h5>Price: ${instructor.price}</h5>
+                                    <h4>Name: {course.name}</h4>
+                                    <p> {course.description}</p>
+                                    <h5 style={{ backgroundColor: 'orange', color: 'black' }}>Price: ${course.price}</h5>
                                 </div>
                             </div>
                         </div>
