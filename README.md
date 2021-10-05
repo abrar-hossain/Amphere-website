@@ -1,6 +1,6 @@
 #Basic URL
 
-  . Higher Study & Exam Prep
+  . Ampere's academy
 
   url: https://cocky-rosalind-ff3e27.netlify.app/
 
