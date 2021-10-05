@@ -3,7 +3,7 @@ import NavBars from '../Navbars/NavBars';
 
 const Header = () => {
     return (
-        <div className="fixed-top">
+        <div>
             <NavBars></NavBars>
         </div>
     );
